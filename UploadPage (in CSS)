@@ -1,0 +1,270 @@
+/* Uploadaplate */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@null;null;400;500;800&display=swap");
+
+p {
+  margin: 0;
+}
+
+.clip-contents {
+  overflow: hidden;
+}
+
+.flex-col-hstart-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-col-hcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-hcenter {
+  justify-content: center;
+}
+
+.upload-aplate {
+  padding: 118px 0px 99px 0px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  width: 375px;
+  height: 840px;
+}
+
+.group-6 {
+  padding: 0px 0px 0.04px 0px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.group-7 {
+  height: 623.04px;
+  width: 100%;
+}
+
+.group-410 {
+  width: 100%;
+}
+
+.photo {
+  height: 210.8px;
+  margin-bottom: 34px;
+  width: 100%;
+}
+
+.form {
+  margin-bottom: 18px;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+.field-1 {
+  padding: 8px 54px 1px 19px;
+  margin-bottom: 17px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-color: rgba(217, 217, 217, 1);
+  height: 37px;
+  width: 100%;
+}
+
+.txt-672 {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: undefined;
+  color: rgba(6, 6, 6, 0.45);
+  width: 151px;
+  height: 26px;
+  word-wrap: break-word;
+}
+
+.field-2 {
+  padding: 4px 7px 1px 19px;
+  margin-bottom: 14px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-color: rgba(217, 217, 217, 1);
+  width: 100%;
+}
+
+.txt-549 {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: undefined;
+  color: rgba(6, 6, 6, 0.45);
+  width: 151px;
+  height: 26px;
+  word-wrap: break-word;
+  margin-right: 20px;
+}
+
+.findcurrentlocation {
+  width: 27px;
+  height: 27px;
+}
+
+.field-3 {
+  padding: 8px 11px 1px 19px;
+  margin-bottom: 21px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-color: rgba(217, 217, 217, 1);
+  height: 37px;
+  width: 100%;
+}
+
+.txt-447 {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(6, 6, 6, 1);
+  width: 194px;
+  height: 26px;
+  word-wrap: break-word;
+}
+
+.field-4 {
+  padding: 8px 11px 1px 19px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-color: rgba(217, 217, 217, 1);
+  height: 37px;
+  width: 100%;
+}
+
+.txt-447 {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(6, 6, 6, 1);
+  width: 194px;
+  height: 26px;
+  word-wrap: break-word;
+}
+
+.group-1104 {
+  width: fit-content;
+}
+
+.milk-button {
+  margin-right: 9px;
+  box-sizing: border-box;
+  width: 40.22px;
+  height: 100%;
+}
+
+.image-4 {
+  width: 170px;
+  height: 117px;
+}
+
+.txt-149 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: rgba(6, 6, 6, 1);
+  text-align: center;
+  width: 41px;
+  height: 13px;
+  word-wrap: break-word;
+}
+
+.eggs-button {
+  padding: 47px 0px 0px 0px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  background: url(image unavailable);
+  background-size: 100% 100%;
+  width: 40.22px;
+  height: 100%;
+}
+
+.txt-149 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: rgba(6, 6, 6, 1);
+  text-align: center;
+  width: 41px;
+  height: 13px;
+  word-wrap: break-word;
+}
+
+.nuts-button {
+  margin-right: 6px;
+  box-sizing: border-box;
+  width: 40.22px;
+  height: 100%;
+}
+
+.image-4 {
+  width: 170px;
+  height: 117px;
+}
+
+.txt-149 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: rgba(6, 6, 6, 1);
+  text-align: center;
+  width: 41px;
+  height: 13px;
+  word-wrap: break-word;
+}
+
+.seafood-button {
+  width: 54px;
+  height: 100%;
+}
+
+.image-4 {
+  width: 170px;
+  height: 117px;
+}
+
+.txt-278 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: rgba(6, 6, 6, 1);
+  text-align: center;
+  width: 55px;
+  height: 14px;
+  word-wrap: break-word;
+}
+
+.offerup-button {
+  padding: 12px 41px 10px 23px;
+  box-sizing: border-box;
+  border-radius: 7px 30px 30px 7px;
+  background-color: rgba(249, 126, 64, 1);
+  width: 191px;
+  height: 53px;
+}
+
+.txt-917 {
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 1);
+  width: 125px;
+  height: 29px;
+  word-wrap: break-word;
+  text-transform: uppercase;
+}

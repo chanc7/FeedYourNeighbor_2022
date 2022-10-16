@@ -1,0 +1,71 @@
+import React from "react"
+import "./styles.css"
+
+export default function UploadAPlate() {
+  return (
+    <div className="upload-aplate flex-col-hstart-vstart clip-contents">
+      <div className="group-6">
+        <div className="group-7">
+          <div className="group-410 flex-col-hcenter">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/iqykbmky91k-11%3A641?alt=media&token=3dc6ad06-1c51-48e4-9a4d-8f3004415147"
+              alt="Not Found"
+              className="photo"
+            />
+            <div className="form flex-col">
+              <div className="field-1">
+                <p className="txt-672">Name of dish</p>
+              </div>
+              <div className="field-2 flex-row">
+                <p className="txt-549">Location</p>
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/iqykbmky91k-11%3A637?alt=media&token=3c1b1f3f-216d-4d36-99b5-1dc8c33db34b"
+                  alt="Not Found"
+                  className="findcurrentlocation"
+                />
+              </div>
+              <div className="field-3">
+                <p className="txt-447">Available until mins</p>
+              </div>
+              <div className="field-4">
+                <p className="txt-447">Might contain...</p>
+              </div>
+            </div>
+            <div className="group-1104 flex-row">
+              <div className="milk-button">
+                <img
+                  src="image unavailable"
+                  alt="Not Found"
+                  className="image-4"
+                />
+                <p className="txt-149 flex-hcenter">milk</p>
+              </div>
+              <div className="eggs-button">
+                <p className="txt-149 flex-hcenter">egg</p>
+              </div>
+              <div className="nuts-button">
+                <img
+                  src="image unavailable"
+                  alt="Not Found"
+                  className="image-4"
+                />
+                <p className="txt-149 flex-hcenter">nuts</p>
+              </div>
+              <div className="seafood-button">
+                <img
+                  src="image unavailable"
+                  alt="Not Found"
+                  className="image-4"
+                />
+                <p className="txt-278 flex-hcenter">seafood</p>
+              </div>
+            </div>
+          </div>
+          <div className="offerup-button">
+            <p className="txt-917">OFFER UP</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}

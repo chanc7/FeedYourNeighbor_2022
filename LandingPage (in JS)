@@ -1,0 +1,112 @@
+import React from "react"
+import "./styles.css"
+
+export default function LandingPage() {
+  return (
+    <div className="landing-page flex-col-hstart-vstart clip-contents">
+      <div className="homepage flex-col-hcenter">
+        <div className="group-022 flex-col">
+          <div className="menu flex-col">
+            <div className="rectangle-3" />
+            <div className="rectangle-32" />
+          </div>
+          <p className="txt-1065">Plates near you!</p>
+          <div className="offer-1 flex-col">
+            <p className="txt-901">
+              TACOS <span className="txt-9012">by tiffante</span>
+            </p>
+            <div className="group-181 flex-row">
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/sgrfvhqnqtd-1%3A15?alt=media&token=9a7e964e-02ac-42d5-bda6-178222988780"
+                alt="Not Found"
+                className="photo"
+              />
+              <div className="text">
+                <p className="txt-5610">must pick up in:</p>
+                <div className="flex-col">
+                  <p className="txt-636">
+                    22 <span className="txt-6362">min</span>
+                  </p>
+                  <p className="txt-268">
+                    6 <span className="txt-6362">min</span>
+                  </p>
+                  <div className="claim-button">
+                    <p className="txt-945">CLAIM</p>
+                  </div>
+                </div>
+                <p className="txt-409">est. time to pickup:</p>
+              </div>
+            </div>
+          </div>
+          <div className="offer-2">
+            <div className="flex-col">
+              <p className="txt-901">
+                PIZZA <span className="txt-9012">by rosalinda</span>
+              </p>
+              <div className="group-848 flex-row-vend">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/sgrfvhqnqtd-3%3A38?alt=media&token=c52f2f81-b405-4be2-abcb-85fb54c2abd3"
+                  alt="Not Found"
+                  className="photo"
+                />
+                <div className="rectangle-5" />
+              </div>
+            </div>
+            <div className="text-1">
+              <p className="txt-5610">must pick up in:</p>
+              <div className="flex-col">
+                <p className="txt-636">
+                  11 <span className="txt-6362">min</span>
+                </p>
+                <p className="txt-817">
+                  9 <span className="txt-6362">min</span>
+                </p>
+                <div className="claim-button-1">
+                  <p className="txt-945">CLAIM</p>
+                </div>
+              </div>
+              <p className="txt-409">est. time to pickup:</p>
+            </div>
+          </div>
+          <div className="offer-3">
+            <div className="flex-col">
+              <p className="txt-901">
+                chipotle burrito{" "}
+                <span className="txt-9012">by chrysanthemum</span>
+              </p>
+              <div className="group-848 flex-row-vend">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/sgrfvhqnqtd-3%3A53?alt=media&token=1a856034-6341-4179-bf97-4744a0bff741"
+                  alt="Not Found"
+                  className="photo"
+                />
+                <div className="rectangle-5" />
+              </div>
+            </div>
+            <div className="text-1">
+              <p className="txt-5610">must pick up in:</p>
+              <div className="flex-col">
+                <p className="txt-636">
+                  10 <span className="txt-6362">min</span>
+                </p>
+                <p className="txt-817">
+                  8 <span className="txt-6362">min</span>
+                </p>
+                <div className="claim-button-1">
+                  <p className="txt-945">CLAIM</p>
+                </div>
+              </div>
+              <p className="txt-409">est. time to pickup:</p>
+            </div>
+          </div>
+          <div className="line-6" />
+        </div>
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/sgrfvhqnqtd-11%3A206?alt=media&token=b8d13fb9-bfac-4e35-8a3e-81f278a20a27"
+          alt="Not Found"
+          className="camera-button"
+        />
+      </div>
+    </div>
+  )
+}
