@@ -5,7 +5,7 @@ import Register from "./Register";
 import Reset from "./Reset";
 import Dashboard from "./Dashboard";
 import Offer from "./Offer";
-
+import UserSettings from "./UserSettings";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
           <Route exact path="/reset" element={<Reset />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
           <Route exact path="/offer" element={<Offer />} />
+          <Route exact path="/usersettings" element={<UserSettings />} />
         </Routes>
       </Router>
     </div>

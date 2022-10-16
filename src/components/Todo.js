@@ -9,7 +9,7 @@ const Todo=({arr})=>{
         <List className="todo__list"> 
             <ListItem>
                 <ListItemAvatar />
-                    <ListItemText primary={arr.item.foodname} secondary={arr.item.foodname} />
+                    <ListItemText primary={arr.item.foodname} secondary={arr.item.name} />
             </ListItem>
             <DeleteIcon fontSize="large" style={{opacity:0.7}} onClick={() => {deleteDoc(doc(db,'foods',arr.id))}} />
         </List> 

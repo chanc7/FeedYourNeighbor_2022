@@ -20,6 +20,10 @@ function Dashboard() {
     navigate('/offer');
   };
 
+  const navigateToSettings = () => {
+    navigate('/usersettings');
+  };
+
   const fetchUserName = async () => {
     try {
       const q = query(collection(db, "users"), where("uid", "==", user?.uid));
@@ -54,6 +58,7 @@ function Dashboard() {
     <div className="dashboard">
       <form>
         <Button variant="contained" color="primary" onClick={navigateToOffer}  >Add Todo</Button>
+        <Button variant="contained" color="primary" onClick={navigateToSettings}  >User Settings</Button>
       </form>
       <ul>
           {todos.map(item=> <Todo key={item.id} arr={item} />)}

@@ -1,0 +1,9 @@
+.usersettings {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    place-items:center;
+    padding: 5px
+  }
