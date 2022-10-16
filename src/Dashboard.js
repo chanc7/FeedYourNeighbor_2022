@@ -16,6 +16,10 @@ function Dashboard() {
   const [todos,setTodos]=useState([]);
   const [input, setInput]=useState('');
 
+  const navigateToOffer = () => {
+    navigate('/offer');
+  };
+
   const fetchUserName = async () => {
     try {
       const q = query(collection(db, "users"), where("uid", "==", user?.uid));
@@ -28,8 +32,6 @@ function Dashboard() {
       alert("An error occured while fetching user data");
     }
   };
-
-
 
   useEffect(() => {
     if (loading) return;
@@ -46,23 +48,12 @@ function Dashboard() {
     });
   }, [user, loading, input]);
 
-  const addTodo=(e)=>{
-    e.preventDefault();
-       addDoc(collection(db,'foods'),{
-         foodname:input,
-         timestamp: serverTimestamp()
-       })
-       console.log('click')
-      setInput('')
-  };
   console.log(todos);
 
   return (
     <div className="dashboard">
       <form>
-         <TextField id="outlined-basic" label="Make Todo" variant="outlined" style={{margin:"0px 5px"}} size="small" value={input}
-         onChange={e=>setInput(e.target.value)} />
-        <Button variant="contained" color="primary" onClick={addTodo}  >Add Todo</Button>
+        <Button variant="contained" color="primary" onClick={navigateToOffer}  >Add Todo</Button>
       </form>
       <ul>
           {todos.map(item=> <Todo key={item.id} arr={item} />)}
