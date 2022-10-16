@@ -1,0 +1,32 @@
+import React from "react"
+import "./styles.css"
+
+export default function AcceptAnOffer() {
+  return (
+    <div className="accept-an-offer flex-col-hstart-vstart clip-contents">
+      <div className="group-9">
+        <div className="group-7 flex-col-hcenter">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/7gcbhrd20s6-11%3A303?alt=media&token=82e5f6ec-f8a1-48de-b16d-bebf567363a4"
+            alt="Not Found"
+            className="photo"
+          />
+          <div className="group-361 flex-col">
+            <p className="txt-329">
+              TACOS <span className="txt-3292">by tiffante</span>
+            </p>
+            <p className="txt-247">must pick up in</p>
+            <div className="confirmpickup-button">
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/7gcbhrd20s6-11%3A302?alt=media&token=f0b502a3-9a48-42c9-bf55-2aa92c6635bc"
+                alt="Not Found"
+                className="image-4"
+              />
+              <p className="txt-752">CONFIRM pickup</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
